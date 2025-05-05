@@ -10,6 +10,7 @@ class Customer(models.Model):
     weight=models.IntegerField(default=0)
     height=models.IntegerField(default=0)
     gender=models.CharField(max_length=100,default='male''female')
+    dob=models.DateField(null=True, blank=True)
 
 
 
